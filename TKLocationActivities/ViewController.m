@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomLocationVC.h"
 @interface ViewController ()
 {
     CLLocationManager *locationManager;
@@ -24,6 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.navigationController.navigationBar setHidden:YES];
+
     geocoder = [[CLGeocoder alloc] init];
     _textView.editable = NO;
 
@@ -114,4 +117,12 @@
     
 }
 
+- (IBAction)nextVC:(id)sender {
+    CustomLocationVC *rvc=[self.storyboard instantiateViewControllerWithIdentifier:@"CustomLocationVC"];
+    //    ss.demo = [orders objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:rvc animated:YES];
+
+//    CustomLocationVC *vc2 = [[CustomLocationVC alloc] init];
+//    [self.navigationController pushViewController:vc2 animated:YES];
+}
 @end

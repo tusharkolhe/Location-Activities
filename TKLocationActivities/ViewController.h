@@ -15,5 +15,6 @@
 - (IBAction)locationBtn:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextView *textView;
 
+- (IBAction)nextVC:(id)sender;
 @end
 

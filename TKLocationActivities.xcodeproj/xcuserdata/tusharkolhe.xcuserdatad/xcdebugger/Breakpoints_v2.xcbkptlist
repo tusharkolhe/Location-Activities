@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLocationActivities/ViewController.m"
-            timestampString = "545399698.867491"
+            timestampString = "545418916.836526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>

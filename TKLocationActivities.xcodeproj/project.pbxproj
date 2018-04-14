@@ -18,6 +18,7 @@
 		71CB1EEE208217EE00D7DEB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CB1EED208217EE00D7DEB8 /* MapKit.framework */; };
 		71CB1EF0208217F900D7DEB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CB1EEF208217F900D7DEB8 /* CoreLocation.framework */; };
 		71CB1EF42082195400D7DEB8 /* marker-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CB1EF32082195400D7DEB8 /* marker-filled.png */; };
+		71CB1EFA20822BAB00D7DEB8 /* CustomLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EF920822BAB00D7DEB8 /* CustomLocationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		71CB1EED208217EE00D7DEB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		71CB1EEF208217F900D7DEB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		71CB1EF32082195400D7DEB8 /* marker-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-filled.png"; sourceTree = "<group>"; };
+		71CB1EF820822BAB00D7DEB8 /* CustomLocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLocationVC.h; sourceTree = "<group>"; };
+		71CB1EF920822BAB00D7DEB8 /* CustomLocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLocationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				71CB1EBB208214D300D7DEB8 /* AppDelegate.m */,
 				71CB1EBD208214D300D7DEB8 /* ViewController.h */,
 				71CB1EBE208214D300D7DEB8 /* ViewController.m */,
+				71CB1EF820822BAB00D7DEB8 /* CustomLocationVC.h */,
+				71CB1EF920822BAB00D7DEB8 /* CustomLocationVC.m */,
 				71CB1EC0208214D300D7DEB8 /* Main.storyboard */,
 				71CB1EF32082195400D7DEB8 /* marker-filled.png */,
 				71CB1EC3208214D300D7DEB8 /* Assets.xcassets */,
@@ -287,6 +292,7 @@
 			files = (
 				71CB1EBF208214D300D7DEB8 /* ViewController.m in Sources */,
 				71CB1ECA208214D300D7DEB8 /* main.m in Sources */,
+				71CB1EFA20822BAB00D7DEB8 /* CustomLocationVC.m in Sources */,
 				71CB1EBC208214D300D7DEB8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
