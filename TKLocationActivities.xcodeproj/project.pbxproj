@@ -15,6 +15,9 @@
 		71CB1ECA208214D300D7DEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EC9208214D300D7DEB8 /* main.m */; };
 		71CB1ED4208214D300D7DEB8 /* TKLocationActivitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1ED3208214D300D7DEB8 /* TKLocationActivitiesTests.m */; };
 		71CB1EDF208214D300D7DEB8 /* TKLocationActivitiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EDE208214D300D7DEB8 /* TKLocationActivitiesUITests.m */; };
+		71CB1EEE208217EE00D7DEB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CB1EED208217EE00D7DEB8 /* MapKit.framework */; };
+		71CB1EF0208217F900D7DEB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CB1EEF208217F900D7DEB8 /* CoreLocation.framework */; };
+		71CB1EF42082195400D7DEB8 /* marker-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CB1EF32082195400D7DEB8 /* marker-filled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		71CB1EDA208214D300D7DEB8 /* TKLocationActivitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKLocationActivitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CB1EDE208214D300D7DEB8 /* TKLocationActivitiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLocationActivitiesUITests.m; sourceTree = "<group>"; };
 		71CB1EE0208214D300D7DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CB1EED208217EE00D7DEB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		71CB1EEF208217F900D7DEB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71CB1EF32082195400D7DEB8 /* marker-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-filled.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CB1EF0208217F900D7DEB8 /* CoreLocation.framework in Frameworks */,
+				71CB1EEE208217EE00D7DEB8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,7 @@
 				71CB1ED2208214D300D7DEB8 /* TKLocationActivitiesTests */,
 				71CB1EDD208214D300D7DEB8 /* TKLocationActivitiesUITests */,
 				71CB1EB8208214D300D7DEB8 /* Products */,
+				71CB1EEC208217EE00D7DEB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +115,7 @@
 				71CB1EBD208214D300D7DEB8 /* ViewController.h */,
 				71CB1EBE208214D300D7DEB8 /* ViewController.m */,
 				71CB1EC0208214D300D7DEB8 /* Main.storyboard */,
+				71CB1EF32082195400D7DEB8 /* marker-filled.png */,
 				71CB1EC3208214D300D7DEB8 /* Assets.xcassets */,
 				71CB1EC5208214D300D7DEB8 /* LaunchScreen.storyboard */,
 				71CB1EC8208214D300D7DEB8 /* Info.plist */,
@@ -130,6 +140,15 @@
 				71CB1EE0208214D300D7DEB8 /* Info.plist */,
 			);
 			path = TKLocationActivitiesUITests;
+			sourceTree = "<group>";
+		};
+		71CB1EEC208217EE00D7DEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71CB1EEF208217F900D7DEB8 /* CoreLocation.framework */,
+				71CB1EED208217EE00D7DEB8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +260,7 @@
 				71CB1EC7208214D300D7DEB8 /* LaunchScreen.storyboard in Resources */,
 				71CB1EC4208214D300D7DEB8 /* Assets.xcassets in Resources */,
 				71CB1EC2208214D300D7DEB8 /* Main.storyboard in Resources */,
+				71CB1EF42082195400D7DEB8 /* marker-filled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = TKLocationActivities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = TKLocationActivities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
