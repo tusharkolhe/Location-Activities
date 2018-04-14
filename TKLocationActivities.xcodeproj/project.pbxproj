@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71CB1EBC208214D300D7DEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EBB208214D300D7DEB8 /* AppDelegate.m */; };
+		71CB1EBF208214D300D7DEB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EBE208214D300D7DEB8 /* ViewController.m */; };
+		71CB1EC2208214D300D7DEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CB1EC0208214D300D7DEB8 /* Main.storyboard */; };
+		71CB1EC4208214D300D7DEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CB1EC3208214D300D7DEB8 /* Assets.xcassets */; };
+		71CB1EC7208214D300D7DEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CB1EC5208214D300D7DEB8 /* LaunchScreen.storyboard */; };
+		71CB1ECA208214D300D7DEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EC9208214D300D7DEB8 /* main.m */; };
+		71CB1ED4208214D300D7DEB8 /* TKLocationActivitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1ED3208214D300D7DEB8 /* TKLocationActivitiesTests.m */; };
+		71CB1EDF208214D300D7DEB8 /* TKLocationActivitiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB1EDE208214D300D7DEB8 /* TKLocationActivitiesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CB1ED0208214D300D7DEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CB1EAF208214D300D7DEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CB1EB6208214D300D7DEB8;
+			remoteInfo = TKLocationActivities;
+		};
+		71CB1EDB208214D300D7DEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CB1EAF208214D300D7DEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CB1EB6208214D300D7DEB8;
+			remoteInfo = TKLocationActivities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71CB1EB7208214D300D7DEB8 /* TKLocationActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKLocationActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CB1EBA208214D300D7DEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71CB1EBB208214D300D7DEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71CB1EBD208214D300D7DEB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71CB1EBE208214D300D7DEB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71CB1EC1208214D300D7DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71CB1EC3208214D300D7DEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CB1EC6208214D300D7DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71CB1EC8208214D300D7DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CB1EC9208214D300D7DEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71CB1ECF208214D300D7DEB8 /* TKLocationActivitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKLocationActivitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CB1ED3208214D300D7DEB8 /* TKLocationActivitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLocationActivitiesTests.m; sourceTree = "<group>"; };
+		71CB1ED5208214D300D7DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CB1EDA208214D300D7DEB8 /* TKLocationActivitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKLocationActivitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CB1EDE208214D300D7DEB8 /* TKLocationActivitiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLocationActivitiesUITests.m; sourceTree = "<group>"; };
+		71CB1EE0208214D300D7DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CB1EB4208214D300D7DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ECC208214D300D7DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ED7208214D300D7DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CB1EAE208214D300D7DEB8 = {
+			isa = PBXGroup;
+			children = (
+				71CB1EB9208214D300D7DEB8 /* TKLocationActivities */,
+				71CB1ED2208214D300D7DEB8 /* TKLocationActivitiesTests */,
+				71CB1EDD208214D300D7DEB8 /* TKLocationActivitiesUITests */,
+				71CB1EB8208214D300D7DEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71CB1EB8208214D300D7DEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CB1EB7208214D300D7DEB8 /* TKLocationActivities.app */,
+				71CB1ECF208214D300D7DEB8 /* TKLocationActivitiesTests.xctest */,
+				71CB1EDA208214D300D7DEB8 /* TKLocationActivitiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CB1EB9208214D300D7DEB8 /* TKLocationActivities */ = {
+			isa = PBXGroup;
+			children = (
+				71CB1EBA208214D300D7DEB8 /* AppDelegate.h */,
+				71CB1EBB208214D300D7DEB8 /* AppDelegate.m */,
+				71CB1EBD208214D300D7DEB8 /* ViewController.h */,
+				71CB1EBE208214D300D7DEB8 /* ViewController.m */,
+				71CB1EC0208214D300D7DEB8 /* Main.storyboard */,
+				71CB1EC3208214D300D7DEB8 /* Assets.xcassets */,
+				71CB1EC5208214D300D7DEB8 /* LaunchScreen.storyboard */,
+				71CB1EC8208214D300D7DEB8 /* Info.plist */,
+				71CB1EC9208214D300D7DEB8 /* main.m */,
+			);
+			path = TKLocationActivities;
+			sourceTree = "<group>";
+		};
+		71CB1ED2208214D300D7DEB8 /* TKLocationActivitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				71CB1ED3208214D300D7DEB8 /* TKLocationActivitiesTests.m */,
+				71CB1ED5208214D300D7DEB8 /* Info.plist */,
+			);
+			path = TKLocationActivitiesTests;
+			sourceTree = "<group>";
+		};
+		71CB1EDD208214D300D7DEB8 /* TKLocationActivitiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71CB1EDE208214D300D7DEB8 /* TKLocationActivitiesUITests.m */,
+				71CB1EE0208214D300D7DEB8 /* Info.plist */,
+			);
+			path = TKLocationActivitiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CB1EB6208214D300D7DEB8 /* TKLocationActivities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CB1EE3208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivities" */;
+			buildPhases = (
+				71CB1EB3208214D300D7DEB8 /* Sources */,
+				71CB1EB4208214D300D7DEB8 /* Frameworks */,
+				71CB1EB5208214D300D7DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKLocationActivities;
+			productName = TKLocationActivities;
+			productReference = 71CB1EB7208214D300D7DEB8 /* TKLocationActivities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71CB1ECE208214D300D7DEB8 /* TKLocationActivitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CB1EE6208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivitiesTests" */;
+			buildPhases = (
+				71CB1ECB208214D300D7DEB8 /* Sources */,
+				71CB1ECC208214D300D7DEB8 /* Frameworks */,
+				71CB1ECD208214D300D7DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CB1ED1208214D300D7DEB8 /* PBXTargetDependency */,
+			);
+			name = TKLocationActivitiesTests;
+			productName = TKLocationActivitiesTests;
+			productReference = 71CB1ECF208214D300D7DEB8 /* TKLocationActivitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71CB1ED9208214D300D7DEB8 /* TKLocationActivitiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CB1EE9208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivitiesUITests" */;
+			buildPhases = (
+				71CB1ED6208214D300D7DEB8 /* Sources */,
+				71CB1ED7208214D300D7DEB8 /* Frameworks */,
+				71CB1ED8208214D300D7DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CB1EDC208214D300D7DEB8 /* PBXTargetDependency */,
+			);
+			name = TKLocationActivitiesUITests;
+			productName = TKLocationActivitiesUITests;
+			productReference = 71CB1EDA208214D300D7DEB8 /* TKLocationActivitiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CB1EAF208214D300D7DEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tushar Kolhe";
+				TargetAttributes = {
+					71CB1EB6208214D300D7DEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					71CB1ECE208214D300D7DEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71CB1EB6208214D300D7DEB8;
+					};
+					71CB1ED9208214D300D7DEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71CB1EB6208214D300D7DEB8;
+					};
+				};
+			};
+			buildConfigurationList = 71CB1EB2208214D300D7DEB8 /* Build configuration list for PBXProject "TKLocationActivities" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71CB1EAE208214D300D7DEB8;
+			productRefGroup = 71CB1EB8208214D300D7DEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CB1EB6208214D300D7DEB8 /* TKLocationActivities */,
+				71CB1ECE208214D300D7DEB8 /* TKLocationActivitiesTests */,
+				71CB1ED9208214D300D7DEB8 /* TKLocationActivitiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CB1EB5208214D300D7DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB1EC7208214D300D7DEB8 /* LaunchScreen.storyboard in Resources */,
+				71CB1EC4208214D300D7DEB8 /* Assets.xcassets in Resources */,
+				71CB1EC2208214D300D7DEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ECD208214D300D7DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ED8208214D300D7DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CB1EB3208214D300D7DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB1EBF208214D300D7DEB8 /* ViewController.m in Sources */,
+				71CB1ECA208214D300D7DEB8 /* main.m in Sources */,
+				71CB1EBC208214D300D7DEB8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ECB208214D300D7DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB1ED4208214D300D7DEB8 /* TKLocationActivitiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CB1ED6208214D300D7DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB1EDF208214D300D7DEB8 /* TKLocationActivitiesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71CB1ED1208214D300D7DEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CB1EB6208214D300D7DEB8 /* TKLocationActivities */;
+			targetProxy = 71CB1ED0208214D300D7DEB8 /* PBXContainerItemProxy */;
+		};
+		71CB1EDC208214D300D7DEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CB1EB6208214D300D7DEB8 /* TKLocationActivities */;
+			targetProxy = 71CB1EDB208214D300D7DEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71CB1EC0208214D300D7DEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CB1EC1208214D300D7DEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71CB1EC5208214D300D7DEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CB1EC6208214D300D7DEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71CB1EE1208214D300D7DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71CB1EE2208214D300D7DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71CB1EE4208214D300D7DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CB1EE5208214D300D7DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71CB1EE7208214D300D7DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKLocationActivities.app/TKLocationActivities";
+			};
+			name = Debug;
+		};
+		71CB1EE8208214D300D7DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKLocationActivities.app/TKLocationActivities";
+			};
+			name = Release;
+		};
+		71CB1EEA208214D300D7DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivitiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKLocationActivities;
+			};
+			name = Debug;
+		};
+		71CB1EEB208214D300D7DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKLocationActivitiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKLocationActivitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKLocationActivities;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CB1EB2208214D300D7DEB8 /* Build configuration list for PBXProject "TKLocationActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CB1EE1208214D300D7DEB8 /* Debug */,
+				71CB1EE2208214D300D7DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CB1EE3208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CB1EE4208214D300D7DEB8 /* Debug */,
+				71CB1EE5208214D300D7DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CB1EE6208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CB1EE7208214D300D7DEB8 /* Debug */,
+				71CB1EE8208214D300D7DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CB1EE9208214D300D7DEB8 /* Build configuration list for PBXNativeTarget "TKLocationActivitiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CB1EEA208214D300D7DEB8 /* Debug */,
+				71CB1EEB208214D300D7DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71CB1EAF208214D300D7DEB8 /* Project object */;
+}
